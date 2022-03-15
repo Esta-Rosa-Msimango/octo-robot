@@ -66,7 +66,7 @@ function sendData() {
   urlEncodedDataPairs.push(
     encodeURIComponent("subscribe") +
       "=" +
-      encodeURIComponent(form.querySelector("[name='specialrequest']").checked)
+      encodeURIComponent(form.querySelector("[name='subscribe']").checked) //specialrequest
   );
 
   // Combine the pairs into a single string and replace all %-encoded spaces to
